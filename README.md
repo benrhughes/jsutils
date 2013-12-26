@@ -1,7 +1,10 @@
 jsutils
 =======
-
 An NPM package with some util functions I use
+
+This package has not been published to NPM because it's young, and will likely be pretty eclectic. If you want it, you can
+
+	npm install git+https://github.com/benrhughes/jsutils.git
 
 
 ## \_partial
