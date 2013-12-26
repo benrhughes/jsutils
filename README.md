@@ -9,6 +9,7 @@ An NPM package with some util functions I use
 This is a helper method for parial application with underscore functions.  Unfortunately underscore (and lodash) idiomatically take a collection as their first agument. In most cases, if you want to parially apply an underscore function, you want to specify the collection last.
 
 For example, 
+
 	* you have an iteractor function `myFunc`, and 
 	* you want to partially apply `_.map` with `myFunc` to create `myMap`
 	* at a later date, you will call `myMap(list)`
@@ -22,3 +23,5 @@ You can apply `_partial` to underscore functions that take multiple
 arguments, for example:
 
 	var add = _partial(_.reduce, function(memo, item) { return memo + item }, 0);
+	add([1,2,3,4,5]); // => 15
+
