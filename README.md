@@ -10,9 +10,9 @@ This is a helper method for parial application with underscore functions.  Unfor
 
 For example, 
 
-	* you have an iteractor function `myFunc`, and 
-	* you want to partially apply `_.map` with `myFunc` to create `myMap`
-	* at a later date, you will call `myMap(list)`
+* you have an iteractor function `myFunc`, and 
+* you want to partially apply `_.map` with `myFunc` to create `myMap`
+* at a later date, you will call `myMap(list)`
 
 You can't use underscore's `partial` to do this, because it only 
 allows the setting of the first argument (the list). With `_partial`, you can do this:
