@@ -40,4 +40,4 @@ arguments, for example:
 `take(array, index, count)` returns a contiguous set of values from an array, starting at a given index. It does not modify the original array. For example:
 
     var array = ['a', 'b', 'c', 'd', 'e'];
-		var guys = take(array, 1, 3) // => ['b', 'c', 'd']
+    var taken = take(array, 1, 3) // => ['b', 'c', 'd']
